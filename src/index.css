@@ -1,13 +1,16 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body{
+    width: 1600px;
+    padding: 20px;
+    /* background-color:#78e4a3; */
+    font-family: "GilroyRegular";
 }
+@font-face {
+    font-family: "GilroyRegular";
+    src: local("GilroyRegular"),
+      url("../src/Fonts/Gilroy-Medium.ttf") format("opentype");
+    font-weight: normal;
+  }
