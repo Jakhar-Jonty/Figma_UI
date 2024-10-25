@@ -41,21 +41,21 @@ export const LogIn = () => {
                         </div>
 
                         <div className='flex justify-center'>
-                            <div className='w-96 h-16 bg-[#473BF0] flex justify-center items-center rounded-lg text-white text-xl font-bold'>
+                            <div className='w-96 h-16 bg-[#473BF0] flex justify-center items-center rounded-lg text-white text-xl font-bold hover:bg-[#070341]'>
                                <Link>Sign In</Link>
                             </div>
                         </div>
                     </div>
                 </form>
 
-                <div className='text-2xl text-center mt-20'>
+                <div className='sm:text-2xl text-center mt-20'>
                     Don't have an account? <Link to='/sign-up' className='text-[#473BF0]' >Create an account</Link>
                 </div>
             </div>
         </div>
 
 
-        <FooterAboutUs/>
+        {/* <FooterAboutUs/> */}
     </div>
   )
 }

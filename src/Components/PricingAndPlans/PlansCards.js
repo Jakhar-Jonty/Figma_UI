@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 export const PlansCards = () => {
     return (
-        <div className='w-full p-12 flex justify-center items-center bg-[#F4F7FA] gap-10'>
+        <div className='w-full p-12 flex  flex-wrap justify-center items-center bg-[#F4F7FA] gap-10'>
             <div className='flex flex-col justify-center items-center p-10 text-center bg-white rounded-xl'>
                 <div className='text-sm text-[#F64B4B] p-6'>
                     STARTER

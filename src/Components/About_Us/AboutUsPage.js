@@ -3,7 +3,7 @@ import { HeroAboutUs } from './HeroAboutUs'
 import { ContentOneAboutUs } from './ContentOneAboutUs'
 import { ContentTwoAboutUs } from './ContentTwoAboutUs'
 import { MembersAboutUs } from './MembersAboutUs'
-import { FooterAboutUs } from './FooterAboutUs'
+// import { FooterAboutUs } from './FooterAboutUs'
 
 export const AboutUsPage = () => {
   return (
@@ -12,7 +12,7 @@ export const AboutUsPage = () => {
         <ContentOneAboutUs/>
         <ContentTwoAboutUs/>
         <MembersAboutUs/>
-        <FooterAboutUs/>
+        {/* <FooterAboutUs/> */}
     </div>
   )
 }

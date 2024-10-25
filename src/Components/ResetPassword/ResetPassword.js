@@ -27,20 +27,20 @@ export const ResetPassword = () => {
                         </div>
 
                         <div className='flex justify-center'>
-                            <div className='w-96 h-16 bg-[#473BF0] flex justify-center items-center rounded-lg text-white text-xl font-bold'>
+                            <div className='w-96 h-16 bg-[#473BF0] flex justify-center items-center rounded-lg text-white text-xl font-bold hover:bg-[#070341]'>
                                <Link>Send Reset Link</Link>
                             </div>
                         </div>
                     </div>
                 </form>
 
-                <div className='text-2xl text-center mt-20'>
-                    Remembered the password?<Link to='/log-in' className='text-[#473BF0]' > Sign in now</Link>
+                <div className='sm:text-2xl text-center mt-20  '>
+                    Remembered the password?<Link to='/log-in' className='text-[#473BF0] '> Sign in now</Link>
                 </div>
             </div>
         </div>
 
-        <FooterAboutUs/>
+        {/* <FooterAboutUs/> */}
     </div>
   )
 }

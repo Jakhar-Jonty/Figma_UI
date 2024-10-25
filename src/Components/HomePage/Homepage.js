@@ -5,10 +5,11 @@ import { Content2 } from './Content2'
 import { Content3 } from './Content3'
 import { Pricing } from './Pricing'
 import { CTAimg } from './CTAimg'
-import { Footer } from './Footer'
+// import { Footer } from './Footer'
 
 
 export const Homepage = () => {
+
   return (
     <div>
     <Hero/>
@@ -17,7 +18,7 @@ export const Homepage = () => {
     <Content3/>
     <Pricing/>
     <CTAimg/>
-    <Footer/>
+    {/* <Footer/> */}
     </div>
   )
 }

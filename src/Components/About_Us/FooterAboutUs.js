@@ -3,13 +3,15 @@ import { Link } from 'react-router-dom'
 
 export const FooterAboutUs = () => {
     return (
-        <div className='w-full flex flex-col items-center justify-center pt-32 bg-[#161C2D] text-white'>
-            <div className='w-[1100px] flex justify-between border-b border-gray-500 pb-20 '>
+        <div className='w-full flex flex-col items-center justify-center pt-20 bg-[#161C2D] text-white'>
+            <div className='lg:w-[1100px] justify-between items-start border-b border-gray-500 pb-20 sm:w-full sm:grid sm:grid-cols-3 gap-10 sm:px-20 lg:grid-cols-5 '>
+
+
                 <div className='flex flex-col gap-8'>
                     <div className='text-gray-500 text-lg'>
                         Company
                     </div>
-                    <div  className='flex flex-col gap-4 text-xl font-thin'>
+                    <div className='flex flex-col gap-4 text-xl font-thin'>
                         <div>
                             <Link>
                                 About us
@@ -33,13 +35,13 @@ export const FooterAboutUs = () => {
                     </div>
                 </div>
 
-                {/* second col */}
+                {/* second col */} 
 
                 <div className='flex flex-col gap-8'>
                     <div className='text-gray-500 text-lg'>
                         Product
                     </div>
-                    <div  className='flex flex-col gap-4 text-xl font-thin'>
+                    <div className='flex flex-col gap-4 text-xl font-thin'>
                         <div>
                             <Link>
                                 Features
@@ -68,13 +70,13 @@ export const FooterAboutUs = () => {
                     </div>
                 </div>
 
-                {/* Third col */}
+                {/* {/* Third col */}
 
                 <div className='flex flex-col gap-8'>
                     <div className='text-gray-500 text-lg'>
                         services
                     </div>
-                    <div  className='flex flex-col gap-4 text-xl font-thin'>
+                    <div className='flex flex-col gap-4 text-xl font-thin'>
                         <div>
                             <Link>
                                 Digital Marketing
@@ -96,7 +98,7 @@ export const FooterAboutUs = () => {
                             </Link>
                         </div>
                     </div>
-                </div>
+                </div> 
 
                 {/* Fourth col */}
 
@@ -104,7 +106,7 @@ export const FooterAboutUs = () => {
                     <div className='text-gray-500 text-lg'>
                         Legal
                     </div>
-                    <div  className='flex flex-col gap-4 text-xl font-thin'>
+                    <div className='flex flex-col gap-4 text-xl font-thin'>
                         <div>
                             <Link>
                                 Privacy Policy
@@ -120,7 +122,7 @@ export const FooterAboutUs = () => {
                                 Return Policy
                             </Link>
                         </div>
-                
+
                     </div>
                 </div>
 
@@ -130,10 +132,10 @@ export const FooterAboutUs = () => {
                     <div className='text-gray-500 text-lg'>
                         Contact Us
                     </div>
-                    <div  className='flex flex-col gap-4 text-xl font-thin'>
+                    <div className='flex flex-col gap-4 text-xl font-thin'>
                         <div>
                             <Link>
-                            support@brainwave.io
+                                support@brainwave.io
                             </Link>
                         </div>
                         <div>
@@ -145,18 +147,27 @@ export const FooterAboutUs = () => {
                 </div>
             </div>
 
-            <div className='w-[1100px] flex justify-between p-6'>
+            <div className='max-w-screen-xl w-full flex justify-between p-6 sm:flex-col sm:gap-6 sm:items-center lg:flex-row'>
                 <div className='text-gray-500'>
-                    &copy; 2024 Copyright, All Right Reserved, Made by Seju_ui_ux with
+                    &copy; 2024 Copyright, All Right Reserved, Made by Seju_ui_ux with &nbsp;
+                    <i className="fa-solid fa-heart text-[#1082E9]"></i>
                 </div>
                 <div className='text-xl flex gap-4'>
-                    <i class="fa-brands fa-twitter"></i>
-                    <i class="fa-brands fa-facebook"></i>
-                    <i class="fa-brands fa-instagram"></i>
-                    <i class="fa-brands fa-linkedin"></i>
+                    <Link to="#" className="hover:text-gray-400">
+                        <i className="fa-brands fa-twitter"></i>
+                    </Link>
+                    <Link to="#" className="hover:text-gray-400">
+                        <i className="fa-brands fa-facebook"></i>
+                    </Link>
+                    <Link to="#" className="hover:text-gray-400">
+                        <i className="fa-brands fa-instagram"></i>
+                    </Link>
+                    <Link to="#" className="hover:text-gray-400">
+                        <i className="fa-brands fa-linkedin"></i>
+                    </Link>
                 </div>
             </div>
-
         </div>
     )
 }
+

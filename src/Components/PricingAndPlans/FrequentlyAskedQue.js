@@ -18,7 +18,7 @@ export const FrequentlyAskedQue = () => {
 
                 <div className='bg-[white] p-6'>
                     <div className='text-2xl font-bold flex justify-between'>
-                        Can I use Albino for my clients? <span>^</span>
+                        Can I use Albino for my clients? <span><i class="fa-solid fa-caret-up"></i></span>
                     </div>
                     <div className='text-lg mt-6 text-gray-500'>
                         With lots of unique blocks, you can   easily build a page without coding. Build your 
@@ -30,17 +30,17 @@ export const FrequentlyAskedQue = () => {
                 </div>
 
                 <div className='text-2xl font-bold bg-[white] p-6 flex justify-between'>
-                    Does it work with WordPress? <span>></span>
+                    Does it work with WordPress? <span><i class="fa-solid fa-caret-down"></i></span>
                 </div>
                 <div className='text-2xl font-bold bg-[white] p-6 flex justify-between'>
-                    Do I get free updates? <span>></span>
+                    Do I get free updates? <span><i class="fa-solid fa-caret-down"></i></span>
                 </div>
                 <div className='text-2xl font-bold bg-[white] p-6 flex justify-between'>
-                    Will you provide support? <span>></span>
+                    Will you provide support? <span><i class="fa-solid fa-caret-down"></i></span>
                 </div>
             </div>
 
-            <div className='text-2xl text-center mt-20'>
+            <div className='text-xl text-center mt-20'>
             Haven’t got your answer?<Link to='/contact-us' className='text-[#473BF0]' > Contact our support now</Link>
                 </div>
         </div>

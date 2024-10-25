@@ -2,8 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+
 body{
-    width: 1600px;
+    /* width: 1600px; */
     padding: 20px;
     /* background-color:#78e4a3; */
     font-family: "GilroyRegular";

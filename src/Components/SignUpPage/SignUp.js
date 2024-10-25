@@ -8,7 +8,7 @@ export const SignUp = () => {
     <div>
         {/* <HeaderSignUp/> */}
         <FormSignUP/>
-        <FooterAboutUs/>
+        {/* <FooterAboutUs/> */}
     </div>
   )
 }
